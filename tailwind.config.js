@@ -4,7 +4,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "edit-dots": "url('/images/bg-dots.svg')",
+      },
+    },
   },
   plugins: [],
 }
